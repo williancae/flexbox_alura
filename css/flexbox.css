@@ -1,0 +1,27 @@
+.cabecalhoPrincipal .container{
+    display: flex; /* Definir div pai como FLEX */
+    align-items: center; /* alinhar verticalmente */
+    justify-content: space-between; /* Espacamento entre o Titulo e o menu de opções */
+}
+.cabecalhoPrincipal-nav{
+    display:flex;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items:center;
+    width: 70%;
+    justify-content: space-around; /* Divide espaço entre os elementos  */
+}
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
